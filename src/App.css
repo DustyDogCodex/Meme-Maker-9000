@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling for the header component and its elements */
+header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.header-right-side{
+  text-align: center;
+  line-height: 50%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styling for the meme-form component */
+.meme-form{
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme-inputs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meme-inputs > label{
+  margin: 20px;
+}
+
+.meme-inputs input{
+  padding: 10px;
+  border: 2px solid rgb(7, 208, 235);
+  border-radius: 20px;
+  color: rgb(160, 3, 250);
+}
+
+.submit-meme-form{
+  background: blueviolet;
+  color: white;
+  border: none;
+  padding: 2% 30%;
+  margin-top: 10%;
+  font-size: 24px;
 }
