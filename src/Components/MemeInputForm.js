@@ -3,7 +3,7 @@ import MemeAPIData from "./MemeAPIData"
 
 function MemeInputForm(){
     /* adding React state to enbale changing images everytime the suer clicks the button */
-    const [meme, setMeme] = React.useState('')
+    const [meme, setMeme] = React.useState('Images/girl-walking-past-meme.jpg')
 
     /* this function will randomly select a meme image from meme API data to set as the current image to be displayed on screen. */
     function generateMeme(){

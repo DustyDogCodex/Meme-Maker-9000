@@ -68,6 +68,7 @@ header{
 
 @media screen and (min-width: 900px) {
   .current-meme{
+    margin: 30px;
     height: 800px;
     width: 800px;
   }
