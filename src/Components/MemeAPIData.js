@@ -1,4 +1,6 @@
-export default {
+/* Data returned from imgflip API with 100 most popular memes at the moment. Currently using this to play around with state in React, but in the future this data will be retrieved using an API call instead of being hard coded! */
+
+const MemeAPIData = {
     "success": true,
     "data": {
         "memes": [
@@ -805,3 +807,5 @@ export default {
         ]
     }
 }
+
+export default MemeAPIData

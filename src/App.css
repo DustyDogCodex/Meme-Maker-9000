@@ -59,3 +59,8 @@ header{
   font-size: 24px;
   border-radius: 10px;
 }
+
+.current-meme{
+  height: 60vh;
+  width: 90vw;
+}
