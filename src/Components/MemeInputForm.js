@@ -34,17 +34,17 @@ function MemeInputForm(){
         <div className="meme-form">
             <div className="meme-inputs">
                 <label for="topText">
-                    <input name='topText' type='text' placeholder="Enter text for the top!" onChange={updateMemeText}></input>
+                    <input name='topText' type='text' placeholder="Enter text for the top!" value={meme.topText} onChange={updateMemeText}></input>
                 </label>
                 <label for="bottomText">
-                    <input name='bottomText' type='text' placeholder="Enter text for the bottom!" onChange={updateMemeText}></input>
+                    <input name='bottomText' type='text' placeholder="Enter text for the bottom!" value={meme.bottomText} onChange={updateMemeText}></input>
                 </label>
             </div>
             <button type="submit" className="submit-meme-form" onClick={generateMeme}>Make A MEME!</button>
             <div className="meme-display">
                 <img src={meme.randomImage} alt='' className="current-meme"/>
-                <h2 className="meme-top-text"></h2>
-                <h2 className="meme-bottom-text"></h2>
+                <h2 className="meme-text top">{meme.topText}</h2>
+                <h2 className="meme-text bottom">{meme.bottomText}</h2>
             </div>
         </div>
     )
