@@ -1,5 +1,4 @@
 import React from "react"
-import MemeAPIData from "./MemeAPIData"
 
 function MemeInputForm(){
     /* adding an object to React state to store topText, bottomTExt and memeImages given by the user. Initailly set to a default value of empty strings and an meme image */
@@ -9,17 +8,23 @@ function MemeInputForm(){
         randomImage: 'Images/girl-walking-past-meme.jpg'
     })
 
-    /* state variable that contains data from MemeAPIData */
-    const [allMemes, setAllMemes] = React.useState(MemeAPIData)
+    /* state variable that contains data for all memes returned from API call, initial state is empty array. */
+    const [allMemes, setAllMemes] = React.useState([])
+
+    /* API call to get memes */
+    React.useEffect(() => {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res => res.json())
+            .then(info => setAllMemes(info.data.memes))
+    }, [])
 
     /* this function will randomly select a meme image from meme API data to set as the current image to be displayed on screen. */
     function generateMeme(){
-        const memeArray = allMemes.data.memes
         /* using math.random to select a random index from memesArray. Then I'm using that index to select the url for the meme at that index and passing the url into the image tag to change the meme currently being displayed on the screen by changing state.  */
-        const memeIndex = Math.floor(Math.random() * memeArray.length)
+        const memeIndex = Math.floor(Math.random() * allMemes.length)
         /* changing state object to update to the new image */
         setMeme(prevObject => ({...prevObject,
-            randomImage: `${memeArray[memeIndex].url}`}))
+            randomImage: `${allMemes[memeIndex].url}`}))
     }
 
     function updateMemeText(event){
