@@ -45,7 +45,7 @@ function MemeInputForm(){
                     <input name='bottomText' type='text' placeholder="Enter text for the bottom!" value={meme.bottomText} onChange={updateMemeText}></input>
                 </label>
             </div>
-            <button type="submit" className="submit-meme-form" onClick={generateMeme}>Make A MEME!</button>
+            <button type="submit" className="submit-meme-form" onClick={generateMeme}>Give me a new meme!</button>
             <div className="meme-display">
                 <img src={meme.randomImage} alt='' className="current-meme"/>
                 <h2 className="meme-text top">{meme.topText}</h2>
