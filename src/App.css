@@ -33,25 +33,23 @@ header{
   padding: 10%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.meme-inputs{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.App-link {
+  color: #61dafb;
 }
 
-.meme-inputs > label{
-  margin: 20px;
-}
-
-.meme-inputs input{
-  padding: 10px;
-  border: 2px solid rgb(7, 208, 235);
-  border-radius: 20px;
-  color: rgb(160, 3, 250);
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .submit-meme-form{
