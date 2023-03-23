@@ -61,6 +61,14 @@ header{
 }
 
 .current-meme{
+  margin: 30px;
   height: 60vh;
   width: 90vw;
+}
+
+@media screen and (min-width: 900px) {
+  .current-meme{
+    height: 800px;
+    width: 800px;
+  }
 }
