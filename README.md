@@ -4,7 +4,7 @@
 
 <a href="https://dustydogcodex.github.io/Meme-Maker-9000/"> LIVE DEMO </a>
 
-<div class="tenor-gif-embed" data-postid="25739412" data-share-method="host" data-aspect-ratio="0.85" data-width="70px" data-height="70px"><a href="https://tenor.com/view/what-surprised-gif-25739412">What Surprised GIF</a>from <a href="https://tenor.com/search/what-gifs">What GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![cat-meme](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 Built using ReactJs
 
