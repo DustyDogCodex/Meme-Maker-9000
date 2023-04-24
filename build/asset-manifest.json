@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Meme-Maker-9000/static/css/main.34249774.css",
+    "main.js": "/Meme-Maker-9000/static/js/main.78735937.js",
+    "index.html": "/Meme-Maker-9000/index.html",
+    "main.34249774.css.map": "/Meme-Maker-9000/static/css/main.34249774.css.map",
+    "main.78735937.js.map": "/Meme-Maker-9000/static/js/main.78735937.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34249774.css",
+    "static/js/main.78735937.js"
+  ]
+}
