@@ -2,7 +2,7 @@
 
 ![the-interview-meme](https://tenor.com/view/james-franco-unsure-meaning-the-gif-20392074.gif)
 
-![the-office-meme](https://tenor.com/view/what-goingon-gif-6166237)
+![the-office-meme](https://tenor.com/view/what-goingon-gif-6166237.gif)
 
 <a href="https://dustydogcodex.github.io/Meme-Maker-9000/"> LIVE DEMO </a>
 
