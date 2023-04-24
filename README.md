@@ -1,5 +1,7 @@
 # Meme Maker 9000
 
+<a href="https://emoji.gg/emoji/8096-elegantcheems"><img src="https://cdn3.emoji.gg/emojis/8096-elegantcheems.png" width="64px" height="64px" alt="ElegantCheems"></a>
+
 Built using ReactJs
 
 For this project, I built a meme generator using ReactJs. A user can click on a button to receive a random meme, selected from the 100 most popular memes from the imgflip API. The user can then add text on the top and bottom of the image to create a custom meme. 
