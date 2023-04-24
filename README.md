@@ -2,6 +2,10 @@
 
 <a href="https://emoji.gg/emoji/8096-elegantcheems"><img src="https://cdn3.emoji.gg/emojis/8096-elegantcheems.png" width="64px" height="64px" alt="ElegantCheems"></a>
 
+<a href="https://dustydogcodex.github.io/Meme-Maker-9000/"> LIVE DEMO </a>
+
+<div class="tenor-gif-embed" data-postid="25739412" data-share-method="host" data-aspect-ratio="0.85" data-width="70px" data-height="70px"><a href="https://tenor.com/view/what-surprised-gif-25739412">What Surprised GIF</a>from <a href="https://tenor.com/search/what-gifs">What GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
 Built using ReactJs
 
 For this project, I built a meme generator using ReactJs. A user can click on a button to receive a random meme, selected from the 100 most popular memes from the imgflip API. The user can then add text on the top and bottom of the image to create a custom meme. 
