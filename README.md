@@ -4,7 +4,8 @@
 
 <a href="https://dustydogcodex.github.io/Meme-Maker-9000/"> LIVE DEMO </a>
 
-![cat-meme](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![cat-meme](https://tenor.com/view/james-franco-unsure-meaning-the-gif-20392074.gif)
+
 
 Built using ReactJs
 
