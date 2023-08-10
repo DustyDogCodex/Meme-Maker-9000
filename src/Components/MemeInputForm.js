@@ -1,11 +1,12 @@
 import React from "react"
+import defaultMeme from '../Images/girl-walking-past-meme.jpg'
 
 function MemeInputForm(){
     /* adding an object to React state to store topText, bottomTExt and memeImages given by the user. Initailly set to a default value of empty strings and an meme image */
     const [meme, setMeme] = React.useState({
         topText: '',
         bottomText: '',
-        randomImage: 'Images/girl-walking-past-meme.jpg'
+        randomImage: defaultMeme
     })
 
     /* state variable that contains data for all memes returned from API call, initial state is empty array. */
