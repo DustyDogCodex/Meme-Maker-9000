@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Meme-Maker-9000/static/css/main.34249774.css",
-    "main.js": "/Meme-Maker-9000/static/js/main.78735937.js",
+    "main.css": "/Meme-Maker-9000/static/css/main.b679b6ef.css",
+    "main.js": "/Meme-Maker-9000/static/js/main.ab4c773c.js",
+    "static/media/girl-walking-past-meme.jpg": "/Meme-Maker-9000/static/media/girl-walking-past-meme.0905e49d6ff5664020b2.jpg",
     "index.html": "/Meme-Maker-9000/index.html",
-    "main.34249774.css.map": "/Meme-Maker-9000/static/css/main.34249774.css.map",
-    "main.78735937.js.map": "/Meme-Maker-9000/static/js/main.78735937.js.map"
+    "main.b679b6ef.css.map": "/Meme-Maker-9000/static/css/main.b679b6ef.css.map",
+    "main.ab4c773c.js.map": "/Meme-Maker-9000/static/js/main.ab4c773c.js.map"
   },
   "entrypoints": [
-    "static/css/main.34249774.css",
-    "static/js/main.78735937.js"
+    "static/css/main.b679b6ef.css",
+    "static/js/main.ab4c773c.js"
   ]
 }
